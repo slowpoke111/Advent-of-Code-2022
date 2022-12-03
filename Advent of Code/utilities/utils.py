@@ -13,7 +13,7 @@ from functools import reduce
 from pprint import pprint
 #endregion
 
-sys.setrecursionlimit(100000)
+sys.setrecursionlimit(10000000)
 #********************************COPY FUNCTION BEFORE MODIFYING
 #region Strings, lists, dicts
 def lmap(func, *iterables):
