@@ -1,3 +1,4 @@
+import utils
 with open("input.txt") as day_1_data: 
     data = day_1_data.readlines()
     data = [int(line.rstrip("\n")) if line.strip() else line.replace("\n", "next elf") for line in data] 
